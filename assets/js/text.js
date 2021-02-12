@@ -20,7 +20,7 @@ $(function () {
 });
 $(function () {
     $(".typed").typed({
-        strings: ['f0rizen', "Batch file", "C/C++ developer", "bruh"],
+        strings: ['f0rizen', "Batch file", "C++ developer", "bruh"],
         typeSpeed: 100,
         loop: true,
         cursorChar: "|",
