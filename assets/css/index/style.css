@@ -6,8 +6,8 @@ body {
     background: var(--back-gif) center;
     background-size: cover;
     display: flex;
-    font-family: 'Gotham Pro';
-    font: 'Gotham Pro';
+    font-family: 'Product Sans';
+    font: 'Product Sans';
 }
 
 .typed {
@@ -228,8 +228,8 @@ input[type=button]::-webkit-focus-inner {
     -o-transition: 0.2s;
     -moz-transition: 0.2s;
     transition: 0.2s;
-    font-family: 'Gotham Pro';
-    font: 'Gotham Pro';
+    font-family: 'Product Sans';
+    font: 'Product Sans';
 }
 
 a.nolink:active,
