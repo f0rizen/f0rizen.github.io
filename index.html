@@ -19,7 +19,16 @@
 </head>
 
 <body class="center">
-    <script>
+    <script type="text/javascript">
+        var test = false;
+        if (!test) {
+            function isMobile() {
+                return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+            }
+            if (isMobile()) {
+                window.location.replace("m")
+            }
+        }
         document.body.style.backgroundImage = "url('assets/anims/bg.gif')";
     </script>
     <header class="center info">
@@ -41,7 +50,7 @@
         </div>
         <div class="buttons">
             <a href="javascript://" class="link"
-                onclick="location.href='https://open.spotify.com/user/bqv6ksh6yqe7nm7fv2tdjyxt0?si=5006c7ccb10d4337'">Spotify</a>
+                onclick="location.href='https://open.spotify.com/user/bqv6ksh6yqe7nm7fv2tdjyxt0?si=d869248478724933'">Spotify</a>
         </div>
     </header>
 </body>

@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>f0rizen</title>
+    <meta property="og:title" content="f0rizen">
+    <meta property="og:locale" content="en_EU">
+    <meta property="og:description" content="f0rizen's mobile main page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/favico/eblan.png" type="image/png">
+    <script src="https://sindresorhus.com/devtools-detect/index.js"></script>
+    <link rel="stylesheet" href="../assets/fonts/gsans/style.css">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.5.95/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../assets/css/m/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/m/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="jquery-3.4.1.js"></script>
+    <script src="../js/text.js"></script>
+    <link rel="stylesheet" href="../assets/vars.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <meta name="theme-color" content="#191919">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<script>
+    var test = false
+    if (!test) {
+        function isMacintosh() {
+            return navigator.platform.indexOf('Mac') > -1
+        }
+
+        function isWindows() {
+            return navigator.platform.indexOf('Win') > -1
+        }
+
+        if (isMacintosh() || isWindows()) {
+            window.location.replace("../")
+        }
+    }
+</script>
+<div id="page-preloader">
+    <span class="spin mdi mdi-loading mdi-spin"></span>
+    <script type="text/javascript">
+        $(window).on('load', function () {
+            var $preloader = $('#page-preloader'),
+                $spinner = $preloader.find('.spin');
+            $spinner.delay(100).fadeOut('slow');
+            $preloader.delay(450).fadeOut('slow');
+        });
+        document.body.style.backgroundImage = "url('../assets/anims/bg.gif')";
+    </script>
+</div>
+
+<body class="center blur">
+    <header class="center info">
+        <div class="center pizdec">
+            <div class="avatar-container"><img src="../assets/images/да.jpg" oncontextmenu="return false;"
+                    class="avatar">
+            </div>
+            <h2><span id="name"></span></h2>
+            <hr width="295">
+            <h3><span id="description"></span></h3>
+        </div>
+        <div class="center pizdec">
+            <h2>Links</h2>
+        </div>
+        <div class="social linkMenu d-flex justify-content-center">
+            <a href="javascript://" onclick="location.href='tg://resolve?domain=f0rizen'" class="mx-2 social-icon"
+                data-tooltip="Telegram">
+                <span class="mdi mdi-telegram"></span>
+            </a>
+            <a href="javascript://" onclick="location.href='https://vk.com/petshat'" class="mx-2 social-icon"
+                data-tooltip="VK">
+                <span class="mdi mdi-vk"></span>
+            </a>
+
+            <a href="javascript://" onclick="location.href='https://github.com/f0rizen'" class="mx-2 social-icon"
+                data-tooltip="GitHub">
+                <span class="mdi mdi-github-circle"></span>
+            </a>
+
+            <a href="javascript://"
+                onclick="location.href='https://open.spotify.com/user/bqv6ksh6yqe7nm7fv2tdjyxt0?si=d869248478724933'"
+                class="mx-2 social-icon" data-tooltip="Spotify">
+                <span class="mdi mdi-spotify"></span>
+            </a>
+        </div>
+    </header>
+</body>
+<script>
+    new Typed('#description', {
+        strings: ["f0rizen", "Shell script", "hacker", "C++ developer", "bruh"],
+        typeSpeed: 50,
+        cursorChar: '|',
+        loop: true
+    });
+</script>
+
+</html>

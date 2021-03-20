@@ -62,7 +62,7 @@ body {
     -khtml-border-radius: 16px;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(15px);
-    border: rgb(25, 25, 25) solid 1px;
+    border: blueviolet solid 1px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .buttons {
