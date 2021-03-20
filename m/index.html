@@ -16,12 +16,11 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="jquery-3.4.1.js"></script>
-    <script src="../js/text.js"></script>
     <link rel="stylesheet" href="../assets/vars.css">
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <meta name="theme-color" content="#191919">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="../assets/js/text.js"></script>
+    <script src="../assets/js/typed.min.js"></script>
 </head>
 <script>
     var test = false
@@ -58,9 +57,9 @@
             <div class="avatar-container"><img src="../assets/images/да.jpg" oncontextmenu="return false;"
                     class="avatar">
             </div>
-            <h2><span id="name"></span></h2>
+            <h2><span id="name">f0rizen</span></h2>
             <hr width="295">
-            <h3><span id="description"></span></h3>
+            <h3><span class="typed"></span><span class="typed-cursor"></span></h3>
         </div>
         <div class="center pizdec">
             <h2>Links</h2>
@@ -88,13 +87,5 @@
         </div>
     </header>
 </body>
-<script>
-    new Typed('#description', {
-        strings: ["f0rizen", "Shell script", "hacker", "C++ developer", "bruh"],
-        typeSpeed: 50,
-        cursorChar: '|',
-        loop: true
-    });
-</script>
 
 </html>
